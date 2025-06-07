@@ -3,7 +3,7 @@ function getWeather() {
     navigator.geolocation.getCurrentPosition(position => {
       const lat = position.coords.latitude;
       const lon = position.coords.longitude;
-      const apiKey = "72de30a3473f6369498e538ba162b6a1";
+      const apiKey = "858845c98bd84e0760802450a35e751e";
 
       const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&lang=en&appid=${apiKey}`;
 
